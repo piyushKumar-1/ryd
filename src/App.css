@@ -1,21 +1,90 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+
+.zl{
+
+  left: 0px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.bl{
+  border:none !important;
+}
+
+.l{
+  text-align: left !important;
+}
+
+.r{
+  text-align: center !important;
+}
+
+.h{
+  height:70px;
+}
+
+.m{
+
+  height: 100%
+}
+
+.is{
+  border:none !important; padding-left: 10px;
+}
+
+.s{
+width: 14%;
+margin-top: 16px !important;
+margin-left: 77%;
+
+padding: 15px !important;
+  border-radius: 100px; background-color: white; padding: 7px;
+}
+
+
+.center{
+ 
+ width: 20% !important;
+ margin-top: 8% !important;
+ text-align: center;
+ margin-left: 5%;
+}
+
+
+.ali{
+  display: inline !important;
+  width: 100%;
+}
+
+.z{
+  margin-left: 6% !important;
+  margin-top: 1%;
+}
+
+.bo{
   color: white;
+  text-decoration: none !important;
+  padding: 20px;
+  outline: white;
 }
 
-.App-intro {
-  font-size: large;
+.tc{
+  justify-content: center !important;
+  color: white !important;
 }
 
 @keyframes App-logo-spin {

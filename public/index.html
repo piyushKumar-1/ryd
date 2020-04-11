@@ -4,6 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link
+  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+  
+.hb{
+
+outline:none !important;
+
+}
+
+</style>
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -15,8 +27,34 @@
     -->
     <title>React App</title>
   </head>
-  <body>
-    <div id="root"></div>
+  <body >
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: white;" id="yup" >
+      <div class="container">
+        <a class="navbar-brand" style="left:0px;" href="/"><h5>Manager</h5></a>    
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <form class="border form-inline my-2 my-lg-0" style="border-radius: 100px; background-color: white; padding: 7px;">
+                <input style="border:none !important; padding-left: 10px;" placeholder="Search" name="search" >
+                <div><i style="padding-right: 10px;" class="fa fa-search"></i></div>
+              </form>
+            </li>
+          </ul>
+
+
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <button class="btn btn-outline-dark" style="margin: 5px;">Logout</button>
+            </li>
+            <li class="nav-item">
+              <img src=back.jpg class="rounded-circle" style="padding: 3px; width: 50px; height: 50px;">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div style="margin-top: 70px;" id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
