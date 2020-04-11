@@ -8,6 +8,7 @@ import './App.css';
 import TableView from './components/TableView.js';
 import KotView from './components/KotView.js';
 import CoinsStatus from './components/CoinsStatus.js';
+import CardView from './components/CardView.js';
 const Home = () => (
 
   <div className="text-center"><br/><br/>
@@ -61,6 +62,14 @@ class App extends React.Component {
                  <Route path="/table" component={TableView} exact/>
                  <Route path="/kot" component={KotView} exact/>
                  <Route path="/coins" component={CoinsStatus} exact/>
+
+                 <Route path="/kot/inprogress" component={CardView} exact/>
+                 <Route path="/kot/completed" component={CardView} exact/>
+                 <Route path="/kot/cancelled" component={CardView} exact/>
+
+                 <Route path="/coins/available" component={CoinsStatus} exact/>
+                 <Route path="/coins/deposited" component={CoinsStatus} exact/>
+                 
                 </Switch>
               </div> 
             </BrowserRouter>

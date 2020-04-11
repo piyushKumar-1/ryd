@@ -18,19 +18,19 @@ const KotNav = () => (
                 <Nav.Link className="tc" href="/kot">Kot View</Nav.Link>
               </Nav>    
             </a>    
-            <a href="/kot/#" className="bo btn-dark col-sm">
+            <a href="/kot/inprogress" className="bo btn-dark col-sm">
               <Nav className="mr-auto tc">
-                <Nav.Link className="tc" href="/kot/#">In Progress</Nav.Link>
+                <Nav.Link className="tc" href="/kot/inprogress">In Progress</Nav.Link>
               </Nav>    
             </a>    
-            <a href="/kot/#" className="bo btn-dark col-sm">
+            <a href="/kot/completed" className="bo btn-dark col-sm">
               <Nav className="mr-auto tc">
-                <Nav.Link className="tc" href="/kot/#">Completed</Nav.Link>
+                <Nav.Link className="tc" href="/kot/completed">Completed</Nav.Link>
               </Nav>
             </a>           
-            <a href="/kot/#" className="bo btn-dark col-sm">
+            <a href="/kot/cancelled" className="bo btn-dark col-sm">
               <Nav className="mr-auto tc">
-                <Nav.Link className="tc" href="/kot/#">Cancelled</Nav.Link>
+                <Nav.Link className="tc" href="/kot/cancelled">Cancelled</Nav.Link>
               </Nav>
             </a>
           </div>

@@ -22,7 +22,6 @@ var Hello = createreactclass({
                           </div>
                         </div>
                       </div>
-/* eslint-disable */
                       
                       );}
                       else{

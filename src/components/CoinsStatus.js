@@ -11,15 +11,15 @@ const CoinNav = () => (
         <div className="ali">
 
           <div className="row">
-            <a href="/coins/#" className="bo btn-dark col-sm">
+            <a href="/coins/available" className="bo btn-dark col-sm">
               <Nav className="mr-auto tc">
-                <Nav.Link className="tc" href="/#">Available Coins</Nav.Link>
+                <Nav.Link className="tc" href="/coins/available">Available Coins</Nav.Link>
               </Nav>    
             </a>    
             
-            <a href="/coins/#" className="bo btn-dark col-sm">
+            <a href="/coins/deposited" className="bo btn-dark col-sm">
               <Nav className="mr-auto tc">
-                <Nav.Link className="tc" href="/#">Deposited Coins</Nav.Link>
+                <Nav.Link className="tc" href="/coins/deposited">Deposited Coins</Nav.Link>
               </Nav>
             </a>
           </div>
